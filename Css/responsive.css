@@ -76,3 +76,9 @@
         margin-top: 20px;
     }
 }
+@media(max-width:526px){
+    .section3-h3,
+    .section-title{
+        font-size: 30px;
+    }
+}
