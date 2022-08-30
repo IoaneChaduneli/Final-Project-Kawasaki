@@ -1,13 +1,13 @@
 :root{
     --white-background-color:#ffff;
-    --additional-background-color:#252525;
+    --additional-background-color: rgb(24, 22, 22);
     --navigation-font:16px;
     --Roboto-font:'Roboto', sans-serif;
     --title-fontsize:42px;
     --title-color:#64D130
 }
 body{
-    background-color: var(--additional-background-color);
+    background-color: rgb(24, 22, 22);
 }
 .header{
     max-width: 1920px;
@@ -55,4 +55,243 @@ body{
     font-size: 50px;
     cursor: pointer;
 }
+/* end header */
+/* start header */
+.section{
+    max-width: 1920px;
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+.section-block{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+}
+.moto-block{
+    max-width: 1000px;
+    width: 100%;
+}
+.kawasaki{
+    max-width: 1000px;
+    width: 100%;
+}
 
+.section-description{
+    max-width: 600px;
+    width: 100%;
+    margin-top: 100px;
+}
+.section-title{
+    font-size: var(--title-fontsize);
+    color: var(--title-color);
+    font-family: var(--Roboto-font);
+    width: 100%;
+}
+.sub-section-title{
+    font-size: 24px ;
+    font-family: var(--Roboto-font);
+    color: var(--white-background-color);
+    margin-top: 30px;
+    width: 100%;
+}
+.section-p{
+    font-size:18px;
+    color: var(--white-background-color);
+    font-family: var(--Roboto-font);
+    width: 100%;
+    margin-top: 30px;
+    line-height: 30px;
+    text-align: justify;
+}
+.learn-more{
+    font-size: 18px;
+    color: var(--title-color);
+    margin-top: 30px;
+    text-decoration: underline;
+    width: 100%;
+    cursor: pointer;
+}
+/* end section */
+/* start 1st footer */
+.footer{
+    max-width: 1920px;
+    width: 100%;
+    margin-top:100px;
+    background-color: rgb(20, 3, 3);
+    padding-top: 20px;
+}
+.footer-block{
+    max-width: 1920px;
+    width: 100%;
+}
+.title-block{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.product-title{
+    max-width: 400px;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: var(--Roboto-font);
+    margin-left: 50px;
+    cursor: pointer;
+}
+.h2-product{
+    width: 100%;
+}
+.product-title:hover{
+    color: rgb(158, 19, 19);
+}
+.See-all{
+    max-width: 300px;
+    width: 100%;
+    color: var(--title-color);
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    padding-right: 200px;
+    font-family: var(--Roboto-font);
+    cursor: pointer;
+}
+.h3-see-all{
+    width: 100%;
+}
+.See-all:hover{
+    color: rgb(158, 19, 19);
+}
+.fa-chevron-right{
+    margin-left: 5px;
+}
+.moto-container{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Moto-block{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: 2s;
+}
+.Moto-block:hover{
+    background-color: rgb(143, 10, 10);
+}
+.Motto-icon{
+    font-size: 100px;
+    color:var(--title-color);
+}
+.Motto-description{
+    max-width: 200px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer-h4{
+    color: grey;
+    font-family: var(--Roboto-font);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer-h5{
+    color: white;
+    font-family: var(--Roboto-font);
+    font-size: 20px;
+    margin-top: 20px;
+}
+.red{
+    color: red;
+}
+.messenenger{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: blue;
+    font-size: 70px;
+    cursor: pointer;
+}
+.fa-facebook-messenger{
+    transition: 2s;
+}
+.fa-facebook-messenger:hover{
+    font-size: 100px;
+}
+.fa-motorcycle{
+    transition: 1s;
+}
+.fa-motorcycle:hover{
+    font-size: 150px;
+}
+.fa-gear{
+    transition: 1s;
+}
+.fa-gear:hover{
+    font-size: 150px;
+}
+.icon-container{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 50px auto;
+
+}
+.socicons{
+    margin-left: 20px;
+    font-size: 30px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.socicons:hover{
+    font-size: 40px;
+    color: rgb(116, 6, 6);
+}
+.after-footer-container{
+    max-width: 1920px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.after-footer-ul{
+    max-width: 1920px;
+    width: 100%;
+}
+.soial-links{
+    max-width: 1000px;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+}
+.social-a:after{
+    content: '';
+    display: inline-block;
+    background-color: rgb(148, 144, 144);
+    width: 2px;
+    height: 15px;
+    margin: 0 20px;
+}
+.social-a{
+    color: rgb(148, 144, 144);
+}
+.social-a:hover{
+    color: red;
+}
+.Coyyright{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(148, 144, 144) ;
+    margin-bottom: 30px;
+}

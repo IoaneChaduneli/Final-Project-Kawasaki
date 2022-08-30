@@ -1,3 +1,8 @@
+@media(max-width:1396px){
+    footer{
+        background-color: rgb(20, 3, 3);
+    }
+}
 @media(max-width:1244px){
     .burger-icon-container{
         display: block;
@@ -24,5 +29,50 @@
     }
     .navigation.active{
         display: block;
+    }
+    .section-block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-p{
+        width: 90%;
+    }
+ 
+}
+@media(max-width:960px){
+    .moto-container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:832px){
+    .soial-links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-a{
+        margin-top: 40px;
+    }
+}
+@media(max-width:680px){
+    .title-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .See-all{
+        margin-top: 25px;
+    }
+}
+@media(max-width:465px){
+    .icon-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .socicons{
+        font-size: 20px;
+        margin-top: 20px;
     }
 }
