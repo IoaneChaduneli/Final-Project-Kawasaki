@@ -37,7 +37,49 @@
     .section-p{
         width: 90%;
     }
+    /* feauture-block */
+    .text-place{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ninja-image{
+        transform: translateX(-100px);
+        margin-top: 50px;
+    }
+    .display-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-section-container{
+        margin-top: 30px;
+        transform: translateX(-100px);
+    }
+    .flex-image{
+        width: 100%;
+    }
+    .models{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .view{
+        transform: translateX(-60px);
+    }
+    .flex-image-block{
+        max-width: 600px;
+        width: 100%;
+        transform: translateX(-150px);
+    }
  
+}
+@media(max-width:1181px){
+    .feature-title-container{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 @media(max-width:960px){
     .moto-container{
@@ -53,6 +95,11 @@
     }
     .social-a{
         margin-top: 40px;
+    }
+}
+@media(max-width:754px){
+    .feature-container{
+        transform: translateX(-100px);
     }
 }
 @media(max-width:680px){
