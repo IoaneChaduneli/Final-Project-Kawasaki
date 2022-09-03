@@ -72,6 +72,23 @@
         width: 100%;
         transform: translateX(-150px);
     }
+    .first-feature-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-feature{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .power,
+    .pure,
+    .text-right-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
  
 }
 @media(max-width:1181px){
@@ -85,6 +102,17 @@
     .moto-container{
         justify-content: center;
         align-items: center;
+    }
+    .right-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-image-block{
+        transform: translateX(-20px);
+    }
+    .flex-image{
+        width: 70%;
     }
 }
 @media(max-width:832px){
