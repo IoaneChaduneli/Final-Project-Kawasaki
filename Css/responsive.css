@@ -72,11 +72,7 @@
         width: 100%;
         transform: translateX(-80px);
     }
-    .first-feature-block{
-        /* flex-direction: column;
-        justify-content: center;
-        align-items: center; */
-    }
+    
     .top-feature{
         display: flex;
         justify-content: center;
@@ -104,6 +100,7 @@
     .flex-image{
         width: 100%;
     }
+}
 /* }
 @media(max-width:998px){
     .top-feature-container{
