@@ -55,6 +55,7 @@
     .right-section-container{
         margin-top: 30px;
         transform: translateX(-100px);
+        border: none;
     }
     .flex-image{
         width: 100%;
@@ -78,14 +79,10 @@
         justify-content: center;
         align-items: center;
     }
-    /* .text-right-block,
-    .right-title-block{
-        transform: translateX(180px);
+    .news-text,
+    .read-more{
+        font-size: 15px;
     }
-    .explore-more{
-        transform: translateX(180px);
-    } */
- 
 }
 @media(max-width:1181px){
     .feature-title-container{
@@ -101,17 +98,12 @@
         width: 100%;
     }
 }
-/* }
-@media(max-width:998px){
-    .top-feature-container{
-        transform: translateX(-100px);
+@media(max-width:1065px){
+    .whole-radio{
+        display:grid;
+        grid-template-columns:auto auto auto auto auto auto auto auto;
     }
-} */
-/* @media(max-width:990px){
-    .top-feature-container{
-        transform: translateX(-200px);
-    }
-} */
+}
 @media(max-width:960px){
     .moto-container{
         justify-content: center;
@@ -129,8 +121,23 @@
         width: 70%;
     }
     .first-feature-block{
-        display: grid;
-        grid-template-columns: auto;
+        flex-direction: column;
+    }
+    .first-image-block{
+        max-width: 700px;
+        width: 100%;
+    }
+    .flex-image{
+        width: 100%;
+    }
+    .title-container{
+        text-align: center;
+        width: 100%;
+    }
+    .view-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media(max-width:832px){
@@ -144,7 +151,9 @@
     }
 }
 @media(max-width:754px){
-    .feature-container{
+    .feature-container,
+    .feauture-whole-container,
+    .top-feature-container{
         transform: translateX(-100px);
     }
 }
@@ -158,7 +167,23 @@
     .See-all{
         margin-top: 25px;
     }
+    .whole-news{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .each-news{
+        margin-top: 20px;
+    }
+    .whole-radio{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .each-radio{
+        margin-top: 30px;
+    }
 }
+
 @media(max-width:465px){
     .icon-container{
         display: grid;
@@ -167,6 +192,9 @@
     .socicons{
         font-size: 20px;
         margin-top: 20px;
+    }
+    .radio-container{
+        display: block;
     }
 }
 @media(max-width:526px){
