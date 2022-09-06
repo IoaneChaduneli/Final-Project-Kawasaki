@@ -1,6 +1,9 @@
-@media(max-width:1396px){
-    footer{
-        background-color: rgb(20, 3, 3);
+@media(max-width:1405px){
+    .whole-news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     }
 }
 @media(max-width:1244px){
