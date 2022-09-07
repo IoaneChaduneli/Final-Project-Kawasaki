@@ -31,7 +31,7 @@
                     <li class="nav-li"><a class="nav-a" href="news.html">News and Events</a></li>
                     <li class="nav-li"><a class="nav-a" href="test.html">Register</a></li>
                     <li class="nav-li"><a class="nav-a" href="#">Contact</a></li>
-                    <li class="nav-li"><a class="nav-a" href="#">Comparable Models</a></li>
+                    <li class="nav-li"><a class="nav-a" href="#">ABOUT</a></li>
                 </ul>
             </nav>
         </div>
@@ -49,28 +49,86 @@
     </header>
     <section class="test-section">
         <div class="test-container">
-            <div class="test-title-container">
-                <h2 class="request-text">REQUEST A TEST RIDE</h2>
-                <h5 class="field">Required Fields*</h5>
-            </div>
-            <div class="select-container">
-                <h3 class="select-title">SELECT A VEHICLE</h3>
-                <label for="vehicle">Select A Vehicle Category*</label>
-                <select name="vehicle" id="vehicle" form="vehicleform">
-                    <option value="MOTORCYCLE">MOTORCYCLE</option>
-                    <option value="MOTORCYCLE">ATV</option>
-                    <option value="MOTORCYCLE">Side x Side</option>
-                    <option value="MOTORCYCLE">Watercraft</option>
-                    <option value="MOTORCYCLE">Electic Balance Bike</option>
-                </select>
-            </div>
-            <div class="select-container">
-                <h3 class="select-title">SELECT A DEALER</h3>
-                <label for="zipsearch"> 
-                    Enter your Zip Code or City & State or Dealer Name*</label>
-                <input type="search" id="zipsearch" name="zipsearch" placeholder="ZIP">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+            <form action="#">
+                <div class="test-title-container">
+                    <h2 class="request-text">REQUEST A TEST RIDE</h2>
+                    <h5 class="field">Required Fields*</h5>
+                </div>
+                <div class="select-container">
+                    <h3 class="select-title">SELECT A VEHICLE</h3>
+                    <label for="vehicle">Select A Vehicle Category*</label>
+                    <select name="vehicle" id="vehicle" form="vehicleform">
+                        <option value="MOTORCYCLE">MOTORCYCLE</option>
+                        <option value="MOTORCYCLE">ATV</option>
+                        <option value="MOTORCYCLE">Side x Side</option>
+                        <option value="MOTORCYCLE">Watercraft</option>
+                        <option value="MOTORCYCLE">Electic Balance Bike</option>
+                    </select>
+                </div>
+                <div class="select-container">
+                    <h3 class="select-title">SELECT A DEALER</h3>
+                    <label for="zipsearch"> 
+                        Enter your Zip Code or City & State or Dealer Name*</label>
+                    <div class="select-input-container">
+                        <input type="search" id="zipsearch" name="zipsearch" placeholder="ZIP">
+                        <i class="fa-solid fa-magnifying-glass observe"></i>
+                    </div>
+                </div>
+                <div class="enter-section">
+                    <h3 class="enter-contact">ENTER YOUR CONTACT INFO</h3>
+                    <div class="enter-info">
+                        <label for="fname">First Name*</label>
+                        <input type="text" id="fname" name="firstname ">
+                    </div>
+                    <div class="enter-info">
+                        <label for="lname">Last Name*</label>
+                        <input type="text" id="lname" name="firstname ">
+                    </div>
+                    <div class="enter-info">
+                        <label for="email">Email Adress*</label>
+                        <input type="text" id="email" name="firstname ">
+                    </div>
+                    <div class="enter-info">
+                        <label for="City">City*</label>
+                        <input type="text" id="city" name="firstname ">
+                    </div>
+                    <div class="enter-info">
+                        <label for="zip">Zip Code*</label>
+                        <input type="text" id="zip" name="firstname ">
+                    </div>
+                    <div class="enter-info">
+                        <label for="number">Phone Number*</label>
+                        <input type="text" id="zip" name="firstname ">
+                    </div>
+                    <div class="enter-info">
+                        <label for="comment">Comments for Dealer</label>
+                        <textarea id="comment" name="entercomment"></textarea>
+                    </div>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="AgreeToTermsAndConditions" name="AgreeToTermsAndConditions" value="true">
+                    <label for="AgreeToTermsAndConditions" class="ptwo">
+                        <span class="ptwo">*I verify that I am 18 years or over, and agree to Kawasaki's</span>
+                        <span class="ptwo blacklink">
+                            <a class="blacklink" href="/en-us/about/legal-policies">privacy policy and terms and conditions of use.</a>
+                        </span>
+                    </label>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="AgreeToTermsAndConditions" name="AgreeToTermsAndConditions" value="true">
+                    <label for="AgreeToTermsAndConditions" class="ptwo">
+                        <span class="ptwo">Sign me up to Stay Connected with Kawasaki via email</span>
+                    </label>
+                </div>
+                <div class="robot-container">
+                   <div class="iframe-container">
+                        <iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdizcQUAAAAAIA8mD_zC-n5nN1Y_3RIW50ufuPn&co=aHR0cHM6Ly93d3cua2F3YXNha2kuY29tOjQ0Mw..&hl=en&v=duyHVVR9Brf6N2GewjkPRfsA&size=normal&cb=6evkjt4b0ji" scrolling="no" frameborder="0"></iframe>
+                        <div class="submit-button">
+                            <button>SUBMIT</button>
+                    </div>
+                   </div>
+                </div>
+            </form>
         </div>
     </section>
     <footer class="footer">

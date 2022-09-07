@@ -787,6 +787,90 @@ body{
     max-width: 500px;
     width: 100%;
     height: 50px;
+}
+.select-input-container{
+    max-width: 500px;
+    width: 100%;
     position: relative;
 }
+.observe{
+    position: absolute;
+    right: 2%;
+    bottom: 17%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.enter-section{
+    max-width: 1500px;
+    margin: 50px auto;
+    width: 100%;  
+}
+.enter-contact{
+    width: 100%;
+    font-size: 30px;
+    color: lightgrey;
+    font-family: var(--Roboto-font)
+}
+.enter-info{
+    max-width: 700px;
+    width: 100%;
+    margin-top: 30px;
+}
+.enter-info label{
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    color: lightgrey;
+    font-size: 20px;
+    font-family: var(--Roboto-font)    
+}
+.enter-info input{
+    width: 100%;
+    height: 40px;
+}
+.enter-info textarea{
+    width: 100%;
+    height: 250px;
+}
+.checkbox-container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.checkbox-container input{
+    margin-top: 20px;
+}
+.ptwo{
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-family: var(--Roboto-font);
+}
+.blacklink{
+    width: 100%;
+    color: rgb(139, 134, 134);
+    font-family: var(--Roboto-font);
+    text-decoration: underline;
+    font-size: 16px;
+}
+.robot-container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.iframe-container{
+    max-width: 700px;
+    margin-top: 30px;
+}
+.iframe-container button{
+    max-width: 200px;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    font-family: var(--osvald-font);
+    background-color: black;
+    color: var(--title-color);
+    text-decoration: none;
+}
+
 
