@@ -1,9 +1,23 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media(max-width:1405px){
     .whole-news{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     }
 }
 @media(max-width:1244px){
@@ -14,13 +28,23 @@
         display: none;
     }
     .header-wrapper{
-        flex-direction: column;
-        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     .nav-ul{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-top: 20px;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .nav-li{
         margin-top: 20px;
@@ -34,30 +58,53 @@
         display: block;
     }
     .section-block{
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .section-p{
         width: 90%;
     }
     /* feauture-block */
     .text-place{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .ninja-image{
-        transform: translateX(-100px);
+        -webkit-transform: translateX(-100px);
+            -ms-transform: translateX(-100px);
+                transform: translateX(-100px);
         margin-top: 50px;
     }
     .display-block{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .right-section-container{
         margin-top: 30px;
-        transform: translateX(-100px);
+        -webkit-transform: translateX(-100px);
+            -ms-transform: translateX(-100px);
+                transform: translateX(-100px);
         border: none;
     }
     .flex-image{
@@ -69,18 +116,28 @@
         margin: 0 auto;
     }
     .view{
-        transform: translateX(-60px);
+        -webkit-transform: translateX(-60px);
+            -ms-transform: translateX(-60px);
+                transform: translateX(-60px);
     }
     .flex-image-block{
         max-width: 600px;
         width: 100%;
-        transform: translateX(-80px);
+        -webkit-transform: translateX(-80px);
+            -ms-transform: translateX(-80px);
+                transform: translateX(-80px);
     }
     
     .top-feature{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .news-text,
     .read-more{
@@ -103,28 +160,46 @@
 }
 @media(max-width:1065px){
     .whole-radio{
+        display:-ms-grid;
         display:grid;
+        -ms-grid-columns:auto auto auto auto auto auto auto auto;
         grid-template-columns:auto auto auto auto auto auto auto auto;
     }
 }
 @media(max-width:960px){
     .moto-container{
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .right-flex{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .flex-image-block{
-        transform: translateX(-20px);
+        -webkit-transform: translateX(-20px);
+            -ms-transform: translateX(-20px);
+                transform: translateX(-20px);
     }
     .flex-image{
         width: 70%;
     }
     .first-feature-block{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .first-image-block{
         max-width: 700px;
@@ -138,16 +213,29 @@
         width: 100%;
     }
     .view-button{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 }
 @media(max-width:832px){
     .soial-links{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .social-a{
         margin-top: 40px;
@@ -156,29 +244,47 @@
 @media(max-width:754px){
     .feature-container,
     .feauture-whole-container{
-        transform: translateX(-100px);
+        -webkit-transform: translateX(-100px);
+            -ms-transform: translateX(-100px);
+                transform: translateX(-100px);
     }
 }
 @media(max-width:680px){
     .title-block{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .See-all{
         margin-top: 25px;
     }
     .whole-news{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .each-news{
         margin-top: 20px;
     }
     .whole-radio{
+        display: -ms-grid;
         display: grid;
+        -ms-grid-columns: auto auto auto auto;
         grid-template-columns: auto auto auto auto;
     }
     .each-radio{
@@ -188,7 +294,9 @@
 
 @media(max-width:465px){
     .icon-container{
+        display: -ms-grid;
         display: grid;
+        -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
     }
     .socicons{
