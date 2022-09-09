@@ -189,6 +189,7 @@ body{
     color: var(--white-background-color);
     font-size: 18px;
     width: 100%;
+    text-align: justify;
 }
 
 .kawasakki{
