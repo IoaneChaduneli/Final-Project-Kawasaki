@@ -155,8 +155,7 @@
 }
 @media(max-width:754px){
     .feature-container,
-    .feauture-whole-container,
-    .top-feature-container{
+    .feauture-whole-container{
         transform: translateX(-100px);
     }
 }
