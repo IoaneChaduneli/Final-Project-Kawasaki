@@ -306,6 +306,9 @@
     .radio-container{
         display: block;
     }
+    .product-title{
+        transform: translateX(-30px);
+    }
 }
 @media(max-width:526px){
     .section3-h3,
